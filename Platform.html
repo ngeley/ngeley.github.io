@@ -18,7 +18,36 @@
   <body>
 	<div class="buffer col-md-2"></div>
 	<div class="content col-md-8">
-	    <h1>Epigen</h1>
+		<!-- Start Header -->
+		<h1>Epigen</h1>
+		<h3>What episode should you watch?</h3>
+
+		<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+			<ul class="nav navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href=index.html>Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=/about>About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=Episode.html>Episodes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=Platform.html>Platforms</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=Series.html>Series</a>
+				</li>
+			</ul>
+			<form class="form-inline pull-xs-right" action="/news_search" method="post">
+				<input id="searchbar" name="searchbar" class="form-control" type="text" placeholder="Search" ng-model="query">
+				<button class="btn btn-outline-success" type="submit" value="Search">Search</button>
+			</form>
+		</nav>
+		<!-- End Header -->
+	    
 		<div class="table-container">
 		<table id="table" class="table table-hover table-striped">
 			<thead>
