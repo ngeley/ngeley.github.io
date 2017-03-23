@@ -1,6 +1,7 @@
 .content{
 	font-family: 'Trebuchet MS';
 	box-shadow: 0px 0px 20px;
+	background-color: white;
 }
 
 .description{
@@ -48,4 +49,8 @@ h1, h2, h3, .more-shows{
 .more-shows{
 	margin-top: 25px;
 	font-size: 25px;
+}
+
+body {
+	background-color: #e6ffe6;
 }
