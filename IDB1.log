@@ -1,0 +1,425 @@
+commit 49ce8b100c6c9e1e0147c6a66bdef8d45d7032cb
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 16:29:10 2017 -0500
+
+    updated stats
+
+commit 09ea56023b83dac5e2ebd1598e25ca5d8030fa15
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Thu Mar 23 16:24:59 2017 -0500
+
+    bio update
+
+commit f879ce289cdcaaba35138c6948dffca604bbb722
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Thu Mar 23 15:56:03 2017 -0500
+
+    Updated Tristen's bio
+
+commit 62fd603a0d216ce26dfcce8c8cdc39374658a245
+Author: Etwigg <etwigg@utexas.edu>
+Date:   Thu Mar 23 15:30:27 2017 -0500
+
+    Update about.html
+
+commit 762993e89ce2b033d4a62ff9d4f14c00e5d99550
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 15:04:35 2017 -0500
+
+    fix tag and change Amazon image
+
+commit 42d14c25664f06c5d7987ffbe851daa2a63e44f1
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 14:44:23 2017 -0500
+
+    modified bio
+
+commit 21866114534c9bd9abb32959ecfae8385a28c3d7
+Merge: adc475b 60bc0e7
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 14:37:01 2017 -0500
+
+    Merge branch 'master' of https://github.com/ngeley/ngeley.github.io
+
+commit adc475be9eec97b23c7566c341759afaf0079b9e
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 14:35:00 2017 -0500
+
+    removed search function
+
+commit 60bc0e7ab6bcfca6d2eedee8b610004a381586ac
+Merge: 9503b7a 98e464e
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 14:00:58 2017 -0500
+
+    Merge branch 'oliver'
+
+commit 98e464e402a99af560a6d83442c11de1801596b1
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 14:00:04 2017 -0500
+
+    changed background color
+
+commit ed7ee2ce9de859387821d20fa03bffe1baf32bc1
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 13:45:15 2017 -0500
+
+    edited pun
+
+commit 2ba17882dae6c487e78fb12e8e117ce6a861f922
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 13:43:19 2017 -0500
+
+    fixed format error
+
+commit 03a3d5af86c131ea2020e25e86b5206e1fb5d904
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 13:40:44 2017 -0500
+
+    added bio
+
+commit 9503b7a99712c9449b9e42074b167128ffaf5103
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Thu Mar 23 13:28:59 2017 -0500
+
+    Updated commits and bio
+
+commit 379d4c9b0f8ff666fd02d5fbd4c20ce8af567630
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Thu Mar 23 13:13:47 2017 -0500
+
+    add episode stills
+
+commit a854bf35030c49d77abaf55109c55729b0902870
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 13:01:21 2017 -0500
+
+    added tools to about page
+
+commit 7e306944144619ccc886bb746958bf5172045927
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 12:55:42 2017 -0500
+
+    added bio and responsibility
+
+commit fc3ee27c1ea37fe58a4efebffcc1a4453fca105b
+Merge: 27bdcbc 69f3c51
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 12:50:54 2017 -0500
+
+    Merge branch 'master' into oliver
+
+commit 27bdcbcd209c320a2095f2650fc6a58b3189448a
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 12:49:43 2017 -0500
+
+    Revert "added some info and reformatted netflix and amazon instance pages"
+    
+    This reverts commit c96aa829e888d05c4f065a2ceecb5bce038d80fa.
+
+commit 69f3c51f478aa13fdd51b2a6283bf9f327aec11b
+Merge: 975f821 76b12f5
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Thu Mar 23 12:30:44 2017 -0500
+
+    Merge branch 'dev'
+
+commit 76b12f50aa7d2e779a4dc6d430848d5fc84be190
+Merge: af7e857 f478e41
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Thu Mar 23 12:28:54 2017 -0500
+
+    merged successfully
+
+commit 975f821c9e60e67fa0eabd0aee0971c5a951c89e
+Merge: 948b7f2 f478e41
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 12:20:47 2017 -0500
+
+    Merge branch 'master' of https://github.com/ngeley/ngeley.github.io
+
+commit c96aa829e888d05c4f065a2ceecb5bce038d80fa
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 12:19:49 2017 -0500
+
+    added some info and reformatted netflix and amazon instance pages
+
+commit f478e41735257af6613cdb7f79f37bbbef15ca35
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Thu Mar 23 12:18:56 2017 -0500
+
+    small fixes to tables
+
+commit af7e8578b41edddfd0295fc3dc5f8499efa29082
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Thu Mar 23 12:03:44 2017 -0500
+
+    instances linked to models
+
+commit 384bff4d9d3a19d518ccd7ecb6ef9fff248707bb
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Thu Mar 23 11:55:16 2017 -0500
+
+    finished episode instances
+
+commit d979ea9086e8ecced35286b3cdc8fe8b397f3174
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Thu Mar 23 11:47:44 2017 -0500
+
+    finished instance pages for series
+
+commit c3fb13629506cc5e984088f71c6e44d18deeff0f
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Thu Mar 23 11:41:34 2017 -0500
+
+    minor text fix
+
+commit 404c0d9fdba390c4d6a8fa23641b036c7ce21e55
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Thu Mar 23 11:40:10 2017 -0500
+
+    finished instance pages for platforms
+
+commit 948b7f2a3acec5bc915309898284afd5949a3e3c
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Thu Mar 23 11:35:12 2017 -0500
+
+    linked to episodes from splash page. projected final version of splash
+
+commit de0cb84cf4ec350c9676dcdd7a8260e27379cfa1
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Thu Mar 23 00:38:34 2017 -0500
+
+    finished platform data
+
+commit 28b3838c660d98ceb9b9ad9f34b25e9c817cf71f
+Merge: c8eaa9e f47e8b3
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 23:41:30 2017 -0500
+
+    Merge branch 'dev' of https://github.com/ngeley/ngeley.github.io into dev
+
+commit c8eaa9ecda00d97f955640f1e06c221dfa9ba664
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 23:39:40 2017 -0500
+
+    fixed bugs in platform
+
+commit f47e8b389e0f055565b0671795eb3825a45adb11
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Wed Mar 22 22:27:59 2017 -0500
+
+    Finished about page
+
+commit 726b06df6dfac5ebd723e4d7e72b521d306f4a73
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Wed Mar 22 21:29:22 2017 -0500
+
+    Fixed about page links
+
+commit 3ff3aaf913fac3d281984681fd76c53871a8e707
+Merge: 6d6cb96 b8374f9
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 21:23:44 2017 -0500
+
+    Merge branch 'master' into dev
+
+commit b8374f9f462d4283fe52d75436ac8c5121ce8eea
+Merge: 48b395a a780dce
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 21:21:32 2017 -0500
+
+    Merge branch 'master' of https://github.com/ngeley/ngeley.github.io
+
+commit 48b395a7461fc2a321045c8a505d59e72dbfdc69
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 21:21:11 2017 -0500
+
+    more platform data
+
+commit 6d6cb96deb865a6ad01698748d46a71903bb9b3b
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Wed Mar 22 21:20:14 2017 -0500
+
+    About Page Basics
+
+commit 83498db2fc54de85963619f1fcfee6aaf2be674e
+Merge: 59a346f 4e665d0
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Wed Mar 22 21:16:24 2017 -0500
+
+    Merge branch 'dev' of https://github.com/ngeley/ngeley.github.io into dev
+
+commit 4e665d0cbb533d832825d43d7f289549218eb069
+Author: ngeley <eley_ng@utexas.edu>
+Date:   Wed Mar 22 20:57:33 2017 -0500
+
+    added pic of eley
+
+commit d8fa0a64ce3af5c6c4c07c65571ffdac976c3b2a
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Wed Mar 22 20:55:03 2017 -0500
+
+    Add folder for Bio pics
+
+commit a780dce0762d668d8c140fd6a7f39c37a0a13874
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Wed Mar 22 20:54:13 2017 -0500
+
+    episode instances and links
+
+commit 957a2d0e115e11674fa40ce39794c730d7552696
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 20:43:05 2017 -0500
+
+    added more information to tables
+
+commit 1dc019213eee99b07b801b1bd934fb15a3cd18fc
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Wed Mar 22 20:08:25 2017 -0500
+
+    formatting fix, added navbar to instances
+
+commit 486ceae6531447b6b7735a9b9bcde8f0572230c5
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Wed Mar 22 18:35:22 2017 -0500
+
+    added header to series
+
+commit 54af806ac07cd087b9cc155818191a9992386acd
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Wed Mar 22 18:31:18 2017 -0500
+
+    linked to pillars
+
+commit 59a346f7e2bc5924f77df02b52045a361f7bad4a
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Wed Mar 22 18:28:18 2017 -0500
+
+    About Page Bascs
+
+commit d43c5bb1b73fa85af1c32900170d2a49f4f7d4b1
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Wed Mar 22 18:00:41 2017 -0500
+
+    fixed link for more shows on splash page
+
+commit 58996daa32b0cee5f88035c8e9bca881ee884d8d
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 17:47:25 2017 -0500
+
+    Details added for series
+
+commit 638185227651f23c4a11a5df33bdcec391964b3d
+Author: Richard Jacobson <jacobsonrickys@gmail.com>
+Date:   Wed Mar 22 15:20:51 2017 -0500
+
+    About Page Basics
+
+commit 3358320770f27e7c3ee9fa1330f16f99e069153e
+Merge: a12954b 3277059
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 14:37:14 2017 -0500
+
+    Merge branch 'dev'
+
+commit 3277059be7bb7794543d40013a371b290c0becac
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 14:35:30 2017 -0500
+
+    linked navigation well to pages
+
+commit a85d87a22b7b7c1100d6ac46f0580469c803fef6
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 14:25:13 2017 -0500
+
+    pillar files now linked in navigation well
+
+commit 4fc6761ce2d0f80c43899aae40d3636533e950df
+Merge: 2e19c10 0872ae8
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 14:12:11 2017 -0500
+
+    Merge branch 'master' of https://github.com/ngeley/ngeley.github.io into dev
+
+commit a12954b469b6d638b94cf11727d209cce009eab4
+Merge: 0872ae8 2e19c10
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 14:06:38 2017 -0500
+
+    Merge branch 'dev'
+
+commit 2e19c10848eb8cc0b696e9e50c6b33ff600db04e
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 22 14:00:00 2017 -0500
+
+    tweaked navigation well
+
+commit 0872ae83bf8f18e5b66623516ab0913231576d4e
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Wed Mar 22 13:16:47 2017 -0500
+
+    added platform pages with external links and internal links
+
+commit ae57377d9118b405945e4d128ed0ff5bbb0ce3c9
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Wed Mar 22 12:56:02 2017 -0500
+
+    fixed the previous commit
+
+commit f6869da2d103cdc78e21be287a5bb605318a73e6
+Author: Ethan Wiggins <etwigg@utexas.edu>
+Date:   Wed Mar 22 12:52:39 2017 -0500
+
+    added series page for the 3 series
+
+commit cc740748c6fbcea4f66a5249c74d7dc771e03782
+Author: Eley Ng <eley_ng@utexas.edu>
+Date:   Tue Mar 21 13:21:25 2017 -0500
+
+    added Header
+
+commit b543af314ce53a4d812c00a060d65fcd818f2f3d
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Sun Mar 19 14:59:52 2017 -0500
+
+    matched formatting
+
+commit c8e22f3b8edfb2c81634f624aaa806bb8c83ba52
+Merge: 3dc978d 8515f4d
+Author: Oliver Reznik <NaturalFigurehead@users.noreply.github.com>
+Date:   Wed Mar 15 23:25:01 2017 -0500
+
+    Merge pull request #1 from ngeley/dev
+    
+    Dev
+
+commit 8515f4d570c6171ee52ce7fe42c70e4cef024d16
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Wed Mar 15 23:20:25 2017 -0500
+
+    made it look better
+
+commit 3dc978d53d5898dc55127ee79dcfd5633e24a641
+Author: Tristen Head <tristenhead@yahoo.com>
+Date:   Wed Mar 15 23:17:35 2017 -0500
+
+    model html
+
+commit 659b668495ab23494c67bcb0fee9cf93712c7772
+Author: Oliver Reznik <oliverlreznik@gmail.com>
+Date:   Wed Mar 15 22:21:41 2017 -0500
+
+    added files for splash page
+
+commit 0b9aa0b89397e55e8ac563a7a4bfe3e1ad8b1459
+Author: ngeley <eley_ng@utexas.edu>
+Date:   Sat Mar 11 23:18:57 2017 -0600
+
+    Added CNAME file for custom domain (epigen.me)
+
+commit 7ba5534ca5b779cdcc697c5926ee4360ed365d21
+Author: ngeley <eley_ng@utexas.edu>
+Date:   Sat Mar 11 23:18:56 2017 -0600
+
+    Initial commit
