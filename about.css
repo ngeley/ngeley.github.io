@@ -17,3 +17,12 @@
 	padding-left: 0px;
 	height: 200px;
 }
+
+.stat-item {
+	font-size: 15px;
+}
+
+a{
+	color: black;
+	font-size: 15px;
+}
