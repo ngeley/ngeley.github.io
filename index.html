@@ -3,6 +3,10 @@
 <head>
 	<title>Splash</title>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="data.js"></script>
+	<script src="index.js"></script>
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -52,22 +56,22 @@
 	<p class="description">Select a series from below to generate a random episode from.</p>
 	<h2>Shows</h2>
 	<div class="series-container col-md-4">
-		<a href="wedding.html">
-			<img class="series-img center-block" src="Series Posters/PeepShow.jpg"><br>
-			<p class="series-title text-center">Peep Show (2005-2015)</p>
+		<a id="link1" href="wedding.html">
+			<img id="poster1" class="series-img center-block" src=""><br>
+			<p id="title1" class="series-title text-center">Peep Show (2005-2015)</p>
 		</a>
 	</div>
 	<div class="series-container col-md-4">
-		<a href="totalrickall.html">
-			<img class="series-img center-block" src="Series Posters/RickAndMorty.jpg"><br>
-			<p class="series-title text-center">Rick and Morty (2013-)</p>
+		<a id="link2" href="totalrickall.html">
+			<img id="poster2" class="series-img center-block" src=""><br>
+			<p id="title2" class="series-title text-center">Rick and Morty (2013-)</p>
 			
 		</a>
 	</div>
 	<div class="series-container col-md-4">
-		<a href="scotttenormanmustdie.html">
-			<img class="series-img center-block" src="Series Posters/SouthPark.jpg"><br>
-			<p class="series-title text-center">South Park (1997-)</p>
+		<a id="link3" href="scotttenormanmustdie.html">
+			<img id="poster3" class="series-img center-block" src=""><br>
+			<p id="title3" class="series-title text-center">South Park (1997-)</p>
 		</a>
 	</div>
 	<a href="Series.html" class="more-shows">More Shows ></a>
@@ -76,6 +80,6 @@
 
 <div class="buffer col-md-2"></div>
 
-
+<script type="text/javascript">main()</script>
 </body>
 </html>
