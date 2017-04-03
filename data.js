@@ -36,13 +36,13 @@ var platformList = [
 		picUrl: "https://siri-cdn.appadvice.com/wp-content/appadvice-v2-media/2017/01/HBOgo_c7114ebc16af7adcd4bfb40e7fc03288.jpg"
 	},
 	{
-		name: "CuriosityStream", 
-		description: "CuriosityStream is a global ad-free subscription video on demand service. It exclusively delivers nonfiction documentaries and series about science, technology, history and nature.", 
-		series: [], 
-		originalContent: "Yes", 
-		ads: "No", 
-		cost: "$2.99-$11.99/month", 
-		picUrl: "https://bignoisepr.newswire.com/files/38/0e/e0e68b049fc4c2fe59fe38063749.jpg"
+		name: "Crunchyroll", 
+		description: "Crunchyroll is an American distributor, publisher and international online community focused on video streaming East Asian media including anime, manga, drama, music, electronic entertainment, and auto racing content.", 
+		series: ["Naruto Shippuden"], 
+		originalContent: "No", 
+		ads: "Yes, depending on subscription level", 
+		cost: "Free; $6.95/month for premium membership (no ads), $11.95/month for premium+ membership (no ads, access to special events)", 
+		picUrl: "https://image.roku.com/channels/images/64ddb52faf534580bb1789bfa0416848-hd.jpg"
 	},
 	{
 		name: "YouTube Red", 
@@ -67,6 +67,7 @@ var seriesList = [
 	},
 	{
 		name: "Black Mirror",
+		
 		description: "A television anthology series that shows the dark side of life and technology.",
 		yearsActive: "2011-",
 		runtime: "1h",
@@ -178,5 +179,16 @@ var episodeList = [
 		episode: "1",
 		airDate: "4 December 2011",
 		picUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BMGFkNWQ0NGEtZGZhNC00M2FkLWEzZjMtNWE4NmVmNzUxMTg2XkEyXkFqcGdeQXVyNDEyNDk3MjA@._V1_SY1000_SX1500_AL_.jpg"
+	},
+	{
+		name: "The End",
+		description: "At the climax of the battle, both Itachi and Sasuke run out of chakra. However, Sasuke reveals that his actions up until now were only a preparation for his final jutsu.",
+		series: "Naruto Shippuden",
+		director: "Hayato Date",
+		writer: "Junki Takegami",
+		season: "6",
+		episode: "138",
+		airDate: "3 December 2009",
+		picUrl: "https://i.ytimg.com/vi/d9-wXxLpCx4/hqdefault.jpg"
 	}
 ]
