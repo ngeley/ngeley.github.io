@@ -151,7 +151,7 @@ var episodeList = [
 		name: "Go Frappe Yourself",
 		description: "All of the drama in Janey and Grandma's lives comes to a head while they are attending the premiere party for Oliver's film.",
 		series: "Me and My Grandma",
-		director: "",
+		director: "Luke Matheny",
 		writer: "Grant Levy, Dominik Rothbard",
 		season: "1",
 		episode: "6",
