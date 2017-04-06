@@ -61,11 +61,38 @@ function getdataEpisode(series){
 		for(val1 in seriesList){
 			var srs = seriesList[val1];
 			if (srs.name == series){
-				for(i in srs.platforms){
-				document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href=networkentity.html?name=" +srs.platforms[i]+ "</a>" + srs.platforms[i] + "<br>");
+				for(i in srs.platforms)
+					document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href=networkentity.html?name=" +srs.platforms[i]+ ">" + "</a>" + srs.platforms[i] + "<br>");
+				}
+			}
+	}
+}
+}
+	
+
+
+function getdataNetwork(platform){
+
+	for(val in platformList){
+		var item = platformList[val];
+
+		if (item.name == platform){
+			window.alert(item.name);
+
+			document.getElementById("name").innerHTML = item.name;
+			document.getElementById("name1").innerHTML = item.name;
+			$("#series-img").attr("src", item.picUrl);
+			document.getElementById("description").innerHTML = item.description;
+			document.getElementById("oc").innerHTML	= item.originalContent;
+			document.getElementById("ads").innerHTML = item.ads;
+			document.getElementById("cost").innerHTML = item.cost;
+			for(val1 in seriesList){
+				var srs = seriesList[val1];
+				if (platform in srs.platforms){
+					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href=seriesentity.html?name=" +srs.name+ "</a>" + srs.name + "<br>");
 				}
 			}
 		}
-		}
 	}
 }
+
