@@ -88,9 +88,11 @@ function getdataNetwork(platform){
 			document.getElementById("oc").innerHTML	= item.originalContent;
 			document.getElementById("ads").innerHTML = item.ads;
 			document.getElementById("cost").innerHTML = item.cost;
-			for(val1 in seriesList){
-				var srs = seriesList[val1];
-				if (platform in srs.platforms){
+			for(series in seriesList){
+				var platforms = seriesList[series].platforms;
+				window.alert(platforms);
+				if (platform in platforms){
+					window.alert(srs.platforms);
 					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href=seriesentity.html?name=" +srs.name+ ">" + srs.name + "</a>" + "<br>");
 				}
 			}
