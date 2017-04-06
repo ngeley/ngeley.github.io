@@ -58,8 +58,10 @@ function getdataEpisode(series){
 			document.getElementById("airDate").innerHTML = item.airdate;
 			document.getElementById("director").innerHTML = item.director;
 			document.getElementById("writer").innerHTML = item.writer;
+			var series = item.series;
+			var linker = series.replace(/\s/g, '%20');
+			document.getElementById("series").insertAdjacentHTML('beforeend', "<a href=seriesentity.html?name=" +linker+ ">" + series + "</a>" + "<br>");
 			document.getElementById("info").innerHTML = item.season + item.episode;
-			document.getElementById("series").innerHTML = item.series;
 		for(val1 in seriesList){
 			var srs = seriesList[val1];
 			if (srs.name == series){
@@ -90,10 +92,10 @@ function getdataNetwork(platform){
 			document.getElementById("cost").innerHTML = item.cost;
 			for(series in seriesList){
 				var platforms = seriesList[series].platforms;
-				window.alert(platforms);
-				if (platform in platforms){
-					window.alert(srs.platforms);
-					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href=seriesentity.html?name=" +srs.name+ ">" + srs.name + "</a>" + "<br>");
+				if (platforms.includes(platform)){
+					var series = seriesList[series].name;
+					var linker = series.replace(/\s/g, '%20');
+					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href=seriesentity.html?name=" +linker+ ">" + series + "</a>" + "<br>");
 				}
 			}
 		}
