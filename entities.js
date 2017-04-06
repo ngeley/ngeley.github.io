@@ -50,7 +50,7 @@ function getdataEpisode(series){
 	for(val in episodeList){
 
 		var item = episodeList[val];
-		if (item.series == series){ // This line will need to be changed
+		if (item.series == series){ 
 			document.getElementById("name").innerHTML = item.name;
 			document.getElementById("name1").innerHTML = item.name;
 			$("#series-img").attr("src", item.picUrl);
