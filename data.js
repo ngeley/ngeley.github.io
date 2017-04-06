@@ -110,6 +110,15 @@ var seriesList = [
 		genre: "Crime, Drama, Mystery",
 		platforms: ["HBO Go", "Amazon Video"],
 		picUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzNTMwODI1OV5BMl5BanBnXkFtZTgwMDIzMTQ0NTE@._V1_.jpg"
+	},
+	{
+		name: "Naruto Shippuden",
+		description: "Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+		yearsActive: "2007-",
+		runtime: "24min",
+		genre: "Animation, Action, Adventure",
+		platforms: ["Crunchyroll"],
+		picUrl: "http://cdn.zonarutoppuden.com/ns/naruto-shippuden-capitulos-sub-espanol.jpg"
 	}
 ]
 
