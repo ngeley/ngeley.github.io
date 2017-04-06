@@ -45,7 +45,7 @@ var platformList = [
 		picUrl: "https://image.roku.com/channels/images/64ddb52faf534580bb1789bfa0416848-hd.jpg"
 	},
 	{
-		name: "YouTube Red", 
+		name: "Youtube Red", 
 		description: 'YouTube Red is a paid streaming subscription service exclusively for YouTube in the United States, Australia, Mexico, New Zealand and South Korea. It provides advertising-free streaming of all videos hosted by YouTube, offline and background playback of videos on mobile devices, access to advertising-free music streaming through Google Play Music, and access to "YouTube Red Original" series and films.', 
 		series: ["Me and My Grandma"], 
 		originalContent: "Yes", 
