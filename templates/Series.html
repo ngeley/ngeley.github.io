@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Episode Finder</title>
+	<script src="static/js/data.js"></script>
+	<script src="static/js/pillar.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="static/css/index.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+	
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+  </head>
+
+  <body>
+	<div class="buffer col-md-2"></div>
+	<div class="content col-md-8">
+		<!-- Start Header -->
+		<h1>Epigen</h1>
+		<h3>What episode should you watch?</h3>
+
+		<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+			<ul class="nav navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href=index.html>Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=about.html>About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=Episode.html>Episodes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=Platform.html>Platforms</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href=Series.html>Series</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- End Header -->
+		<div class="table-container">
+		<table id="table" class="table table-hover table-striped">
+			<thead>
+			<tr>
+				<th>Title</th>
+				<th>Description</th>
+				<th>Runtime</th>
+				<th>Air Date</th>
+				<th>Genre</th>
+				<th>Platform</th>
+			</tr>
+			</thead>
+			<tbody>
+        
+			<!--<tr>
+				<td><a href="peepshow.html">Peep Show</a></td>
+				<td>Mark and Jez are a couple of twenty-something roommates who have nothing in common - except for the fact that their lives are anything but normal. Mayhem ensues as the pair strive to cope with day-to-day life. </td>
+				<td>UK</td>
+				<td>2005-2015</td>
+				<td>Comedy</td>
+				<td><a href="hulu.html">Hulu</a></td>
+			</tr>
+
+			<tr>
+				<td><a href="rickandmorty.html">Rick and Morty</a></td>
+				<td>An animated series that follows the exploits of a super scientist and his not so bright grandson. </td>
+				<td>US</td>
+				<td>2013-</td>
+				<td>American Sitcom, Comic Science Fiction</td>
+				<td><a href="amazon.html">Amazon Video</a></td>
+			</tr>
+			<tr>
+				<td><a href="southpark.html">South Park</a></td>
+				<td>Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.</td>
+				<td>US</td>
+				<td>1997-</td>
+				<td>Animation, Adult Comedy</td>
+				<td><a href="amazon.html">Amazon Video</a>, <a href="hulu.html">Hulu</a></td>
+			</tr>-->
+			</tbody>
+		</div>
+	</div>
+	<script type="text/javascript">genSeries()</script>
+	<script type="text/javascript">
+				$(document).ready(function() {
+				    $('#table').DataTable({
+				    	"lengthMenu": [[3,5,-1],[3,5,"All"]]
+				    });
+				});
+	</script>
+  </body>
+
+  </html>
