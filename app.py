@@ -38,4 +38,4 @@ def page3():
 	return render_template('page3.html', strings = dict) # Example of argument passing to HTML template
 	
 if __name__ == '__main__':
-        app.run() # Run application
+        app.run('107.170.7.26','80') # Run application
