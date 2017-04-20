@@ -46,4 +46,4 @@ def networkentity(name):
 	return render_template('/networkentity.html/', string = name) 
 	
 if __name__ == '__main__':
-        app.run('127.0.0.1','5000') # Run application
+        app.run('107.170.7.26','80') # Run application
