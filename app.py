@@ -32,15 +32,15 @@ def series():
 def platforms():
 	return render_template('Platform.html')
 	
-@app.route('/episodeentity.html/<path:name>/')
+@app.route('/episodeentity.html/<name>/')
 def episodeentity(name):
 	return render_template('episodeentity.html', name) 
 
-@app.route('/seriesentity.html/<path:name>/')
+@app.route('/seriesentity.html/<name>/')
 def seriesentity(name):
 	return '%s' % name
 
-@app.route('/networkentity.html/<path:name>/')
+@app.route('/networkentity.html/<name>/')
 def networkentity(name):
 	return render_template('networkentity.html', name) 
 	
