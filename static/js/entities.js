@@ -12,8 +12,7 @@ function getQuery(variable){
 
 function getdataSeries(series){
 	for(val in seriesList){
-		var item = seriesList[val];
-		if (item.name == series){
+		if (val.name === series){
 			document.getElementById("name").innerHTML = item.name;
 			document.getElementById("name1").innerHTML = item.name;
 			$("#series-img").attr("src", item.picUrl);
@@ -41,6 +40,9 @@ function getdataSeries(series){
 			document.getElementById("episodes").innerHTML = list;
 			// Will need to fix with multiple episodes per series
 			$("#episode-link").attr("href", "/episodeentity.html/" +list[0]+ "/");
+		}
+		else{
+			window.alert('Error' + val.name);
 		}
 	}
 }

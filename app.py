@@ -14,23 +14,23 @@ URLs that will call the index() function if running app.py on localhost:
 @app.route('/') # URL for function (default for home page)
 @app.route('/index.html') # Secondary URL for function
 def index():
-	return render_template('index.html') # located in templates/
+	return render_template('index.html/') # located in templates/
 	
-@app.route('/about.html')
+@app.route('/about.html/')
 def about():
-	return render_template('about.html')
+	return render_template('about.html/')
 
-@app.route('/Episode.html')
+@app.route('/Episode.html/')
 def episodes():
-	return render_template('Episode.html')
+	return render_template('Episode.html/')
 
-@app.route('/Series.html')
+@app.route('/Series.html/')
 def series():
-	return render_template('Series.html')
+	return render_template('Series.html/')
 
-@app.route('/Platform.html')
+@app.route('/Platform.html/')
 def platforms():
-	return render_template('Platform.html')
+	return render_template('Platform.html/')
 	
 @app.route('/episodeentity.html/<name>/')
 def episodeentity(name):
@@ -38,7 +38,8 @@ def episodeentity(name):
 
 @app.route('/seriesentity.html/<name>/')
 def seriesentity(name):
-	return render_template('/seriesentity.html/', string = name)
+	string = '%s' % name
+	return render_template('/seriesentity.html/', string = string)
 
 @app.route('/networkentity.html/<name>/')
 def networkentity(name):
