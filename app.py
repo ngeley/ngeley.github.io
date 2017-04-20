@@ -38,7 +38,7 @@ def episodeentity(name):
 
 @app.route('/seriesentity.html/<path:name>/')
 def seriesentity(name):
-	return render_template('seriesentity.html', name) 
+	return '%s' % name
 
 @app.route('/networkentity.html/<path:name>/')
 def networkentity(name):
