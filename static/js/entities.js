@@ -25,7 +25,7 @@ function getdataSeries(series){
 			var srs = seriesList[val1];
 			if (srs.name == series){
 				for(i in srs.platforms){
-				document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href={{url_for(platformentity.html/" +i+ ")}}>" +i+ "</a>" + "<br>");
+				document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href={{url_for(/platformentity.html/" +i+ ")}}>" +i+ "</a>" + "<br>");
 				}
 			}
 		}
@@ -57,13 +57,13 @@ function getdataEpisode(episode){
 			document.getElementById("airDate").innerHTML = item.airdate;
 			document.getElementById("director").innerHTML = item.director;
 			document.getElementById("writer").innerHTML = item.writer;
-			document.getElementById("series").insertAdjacentHTML('beforeend', "<a href={{url_for(seriesentity.html/" +item.series+ ")}}>" +item.series+ "</a>" + "<br>");
+			document.getElementById("series").insertAdjacentHTML('beforeend', "<a href={{url_for(/seriesentity.html/" +item.series+ ")}}>" +item.series+ "</a>" + "<br>");
 			document.getElementById("info").innerHTML = item.season + item.episode;
 		for(val1 in seriesList){
 			var srs = seriesList[val1];
 			if (srs.name == series){
 				for(i in srs.platforms)
-					document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href={{url_for(platformentity.html/" +i+ ")}}>" +i+ "</a>" + "<br>");
+					document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href={{url_for(/platformentity.html/" +i+ ")}}>" +i+ "</a>" + "<br>");
 				}
 			}
 	}
@@ -87,7 +87,7 @@ function getdataNetwork(platform){
 			for(series in seriesList){
 				var platforms = seriesList[series].platforms;
 				if (platforms.includes(platform)){
-					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href={{url_for(seriesentity.html/" +series.name+ ")}}>" +series.name+ "</a>" + "<br>");
+					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href={{url_for(/seriesentity.html/" +series.name+ ")}}>" +series.name+ "</a>" + "<br>");
 				}
 			}
 		}
