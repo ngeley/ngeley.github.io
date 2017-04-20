@@ -40,8 +40,8 @@ def episodeentity(name):
 def seriesentity(name):
 	return render_template('seriesentity.html', name) 
 
-@app.route('/networkntity.html/<name>/')
-def seriesentity(name):
+@app.route('/networkentity.html/<name>/')
+def networkentity(name):
 	return render_template('networkentity.html', name) 
 	
 if __name__ == '__main__':
