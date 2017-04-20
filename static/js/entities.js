@@ -1,3 +1,4 @@
+/*
 function getQuery(variable){
        var query = window.location.search.substring(1);
        var vars = query.split("&");
@@ -7,6 +8,7 @@ function getQuery(variable){
        }
        return(false);
 }
+*/
 
 function getdataSeries(series){
 	for(val in seriesList){
@@ -23,9 +25,7 @@ function getdataSeries(series){
 			var srs = seriesList[val1];
 			if (srs.name == series){
 				for(i in srs.platforms){
-				var str = srs.platforms[i];
-				var pls = str.replace(/\s/g, '%20');
-				document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href=networkentity.html?name=" + pls + ">"  + srs.platforms[i] + "</a>" + "<br>");
+				document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href={{url_for(platformentity.html/" +i+ ")}}>" +i+ "</a>" + "<br>");
 				}
 			}
 		}
@@ -40,17 +40,16 @@ function getdataSeries(series){
 			}
 			document.getElementById("episodes").innerHTML = list;
 			// Will need to fix with multiple episodes per series
-			$("#episode-link").attr("href", "episodeentity.html?series=" + item.name);
+			$("#episode-link").attr("href", "{{url_for(episodeentity.html/" +list[0]+ ")}}");
 		}
 	}
 }
-// Need to fix this when multiple episodes per series
-function getdataEpisode(series){
+
+function getdataEpisode(episode){
 
 	for(val in episodeList){
-
 		var item = episodeList[val];
-		if (item.series == series){ 
+		if (item.name == episode){ 
 			document.getElementById("name").innerHTML = item.name;
 			document.getElementById("name1").innerHTML = item.name;
 			$("#series-img").attr("src", item.picUrl);
@@ -58,17 +57,13 @@ function getdataEpisode(series){
 			document.getElementById("airDate").innerHTML = item.airdate;
 			document.getElementById("director").innerHTML = item.director;
 			document.getElementById("writer").innerHTML = item.writer;
-			var series = item.series;
-			var linker = series.replace(/\s/g, '%20');
-			document.getElementById("series").insertAdjacentHTML('beforeend', "<a href=seriesentity.html?name=" +linker+ ">" + series + "</a>" + "<br>");
+			document.getElementById("series").insertAdjacentHTML('beforeend', "<a href={{url_for(seriesentity.html/" +item.series+ ")}}>" +item.series+ "</a>" + "<br>");
 			document.getElementById("info").innerHTML = item.season + item.episode;
 		for(val1 in seriesList){
 			var srs = seriesList[val1];
 			if (srs.name == series){
 				for(i in srs.platforms)
-					var str = srs.platforms[i];
-					var pls = str.replace(/\s/g, '%20');
-					document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href=networkentity.html?name=" +pls+ ">"  + srs.platforms[i] + "</a>" + "<br>");
+					document.getElementById("platforms").insertAdjacentHTML('beforeend', "<a href={{url_for(platformentity.html/" +i+ ")}}>" +i+ "</a>" + "<br>");
 				}
 			}
 	}
@@ -80,7 +75,6 @@ function getdataEpisode(series){
 function getdataNetwork(platform){
 
 	for(val in platformList){
-
 		var item = platformList[val];
 		if (item.name === platform){
 			document.getElementById("name").innerHTML = item.name;
@@ -93,9 +87,7 @@ function getdataNetwork(platform){
 			for(series in seriesList){
 				var platforms = seriesList[series].platforms;
 				if (platforms.includes(platform)){
-					var series = seriesList[series].name;
-					var linker = series.replace(/\s/g, '%20');
-					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href=seriesentity.html?name=" +linker+ ">" + series + "</a>" + "<br>");
+					document.getElementById("series").insertAdjacentHTML('beforeend', "<a href={{url_for(seriesentity.html/" +series.name+ ")}}>" +series.name+ "</a>" + "<br>");
 				}
 			}
 		}

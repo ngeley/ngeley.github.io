@@ -32,10 +32,17 @@ def series():
 def platforms():
 	return render_template('Platform.html')
 	
-@app.route('/page3')
-def page3():
-	dict = {'string1' : 'Testing.', 'string2' : 'Hello, World!'}
-	return render_template('page3.html', strings = dict) # Example of argument passing to HTML template
+@app.route('/episodeentity.html/<name>/')
+def episodeentity(name):
+	return render_template('episodeentity.html', name) 
+
+@app.route('/seriesentity.html/<name>/')
+def seriesentity(name):
+	return render_template('seriesentity.html', name) 
+
+@app.route('/networkntity.html/<name>/')
+def seriesentity(name):
+	return render_template('networkentity.html', name) 
 	
 if __name__ == '__main__':
         app.run('107.170.7.26','80') # Run application
