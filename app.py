@@ -34,15 +34,15 @@ def platforms():
 	
 @app.route('/episodeentity.html/<name>/')
 def episodeentity(name):
-	return render_template('episodeentity.html', name) 
+	return render_template('/episodeentity.html/', string = name) 
 
 @app.route('/seriesentity.html/<name>/')
 def seriesentity(name):
-	return '%s' % name
+	return render_template('/seriesentity.html/', string = name)
 
 @app.route('/networkentity.html/<name>/')
 def networkentity(name):
-	return render_template('networkentity.html', name) 
+	return render_template('/networkentity.html/', string = name) 
 	
 if __name__ == '__main__':
-        app.run('107.170.7.26','80') # Run application
+        app.run('127.0.0.1','5000') # Run application
