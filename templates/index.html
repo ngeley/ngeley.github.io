@@ -24,30 +24,30 @@
 
 <div class="content col-md-8">
 <!-- Start Header -->
-    <h1>Epigen</h1>
-	<h3>What episode should you watch?</h3>
+		<h1>Epigen</h1>
+		<h3>What episode should you watch?</h3>
 
-    <nav class="navbar navbar-light bg-faded">
-      <a class="navbar-brand" href="#"></a>
-      <ul class="nav navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href=index.html>Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=about.html>About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=Episode.html>Episodes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=Platform.html>Platforms</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href=Series.html>Series</a>
-        </li>
-      </ul>
-    </nav>
-<!-- End Header -->
+		<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+			<ul class="nav navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href={{ url_for('index') }}>Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href={{ url_for('about') }}>About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href={{ url_for('episodes') }}>Episodes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href={{ url_for('platforms') }}>Platforms</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href={{ url_for('series') }}>Series</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- End Header -->
 
 
 
@@ -74,7 +74,7 @@
 			<p id="title3" class="series-title text-center">South Park (1997-)</p>
 		</a>
 	</div>
-	<a href="Series.html" class="more-shows">More Shows ></a>
+	<a href={{ url_for('series') }} class="more-shows">More Shows ></a>
 
 </div>
 
